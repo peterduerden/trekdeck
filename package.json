@@ -1,0 +1,14 @@
+{
+  "name": "TrekDeck",
+  "description": "Deck builder for Star Trek: Customizable Card Game",
+  "version": "0.1.0",
+  "author": "Peter Duerden <peterduerden@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterduerden/trekdeck.git"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "3.0.0rc5"
+  }
+}
