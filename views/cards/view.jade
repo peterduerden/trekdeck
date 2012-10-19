@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+  div(data-role="page", data-theme="a")
+    div(data-role="header")
+      h1= title
+    div(data-role="content")
+      img(src='/images/cards/large/#{card.id}.jpg')
+      h1= card.title

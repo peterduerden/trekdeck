@@ -1,0 +1,14 @@
+/*
+ * TrekDeck Style
+ * -----------------------------------------------------------------------------------------------------------*/
+
+body {
+  text-transform: uppercase;
+}
+
+.ui-header .ui-title {background: url(/images/logo-header.png) center center no-repeat; text-indent:-10000px; height:30px;}
+
+img.card {}
+img.car-small {}
+.card-stream {}
+.card-stream img.card {float:left;}

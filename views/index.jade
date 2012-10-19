@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div#home(data-role="page", data-theme="a")
+    div(data-role="header")
+      h1 TrekDeck
+      a.ui-btn-right(href="#search", data-icon="search")
+    div(data-role="content")
+      for card in cards
+        include card-preview
+  div#search(data-role="page", data-theme="a")
+    div(data-role="header")
+      h1 Search
+    div(data-role="content")

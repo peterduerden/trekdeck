@@ -1,0 +1,26 @@
+/*
+ * TrekDeck Style
+ */
+@font-face {
+  font-family: LCARS;
+  src: url("tt0105m_.ttf") format("truetype");
+}
+
+body {
+  font-family: LCARS, Helvetica, Arial, sans-serif !important;
+  text-transform: uppercase;
+}
+
+/*
+ * LCARS Colours
+ */
+
+.c1 {color:#ff9900;}
+.c2 {color:#cc99cc;}
+.c3 {color:#9999cc;}
+.c4 {color:#cc6666;}
+.c5 {color:#ffcc99;}
+.c6 {color:#9999ff;}
+.c7 {color:#ff9966;}
+.c8 {color:#cc6699;}
+
